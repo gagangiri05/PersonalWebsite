@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="Gagan giri is a computer science graduate student at the university of Illinois at chicago who is passionate about software development" />
+	<meta name="keywords" content="Software development engineer,Web Developer, Developer Portfolio" />
+
+	<meta name="description" content="Page description" />
+	<meta property="og:title" content="Gagan Giri - Computer Sciene Graduate Student" />
+	<meta property="og:description"
+		content="Gagan giri is a computer science graduate student at the university of Illinois at chicago who is passionate about software development " />
+
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="theme-color" content="#000000" />
+	<meta name="robots" content="index, follow" />
+
+	<link rel="icon" href="./assets/favicon-32x32.png" />
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+	<link rel="stylesheet" href="styles.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- boxicons -->
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	<script src="./script.js" defer></script>
+	<title>Gagan Giri Portfolio Website </title>
+</head>
+
+<body>
+	<header class="main-header">
+		<nav class="nav slide-in-top">
+			<div class="container">
+				<a href="#">
+					<img src="./assets/GG_.png" alt="Gagan Giri" class="logo" />
+					<title>Logo</title>
+				</a>
+
+				<ul class="nav-list">
+					<li>
+						<p1><b>&lt; gagangiri/ &gt;</b></p1>
+					</li>
+					<li>
+						<a href="#about" class="nav-links hover-effect"><i class="fa-solid fa-user"></i><b>About</b></a>
+					</li>
+					<li>
+						<a href="#skills" class="nav-links hover-effect"><i
+								class="fa-solid fa-gear"></i><b>Skills</b></a>
+					</li>
+					<li>
+						<a href="#projects" class="nav-links hover-effect"><i
+								class="fa-regular fa-lightbulb"></i><b>Projects</b></a>
+					</li>
+					<li>
+						<a href="#contact" class="nav-links hover-effect"><i
+								class="fa-regular fa-message"></i><b>Contact</b></a>
+					</li>
+				</ul>
+
+				<ul class="social-nav">
+					<li>
+						<a href="https://twitter.com/GaganGiri007" rel="noreferrer" target="_blank"
+							aria-label="link to twitter profile">
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+								style="fill: currentColor">
+								<path
+									d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/gagangiri/" rel="noreferrer" target="_blank"
+							aria-label="link to linkedin profile"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+								height="18" viewBox="0 0 24 24" style="fill: currentColor">
+								<circle cx="4.983" cy="5.009" r="2.188"></circle>
+								<path
+									d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/gagangiri05" rel="noreferrer" target="_blank"
+							aria-label="link to github account"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+								height="18" viewBox="0 0 24 24" style="fill: currentColor">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+								</path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+
+				<div class="hamburger">
+					<div class="line-menu half start"></div>
+					<div class="line-menu"></div>
+					<div class="line-menu half end"></div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main id="main-content">
+		<!-- hero section -->
+		<section class="hero">
+			<div class="container">
+				<article class="hero-text bounce-in-left">
+					<div>
+						<p class="subtitle">hi there 👋🏽, i'm</p>
+						<h1 class="name">Gagan Giri</h1>
+					</div>
+					<div>
+						<p class="intro">
+							A computer science graduate student at the University of Illinois at Chicago who is
+							passionate about software development
+						</p>
+
+						<div class="hero-btn-container">
+
+							<a href="https://drive.google.com/file/d/16qWZJQKcJd4H01VbipB8X61OWDbjzD-P/view?usp=sharing"
+								class="btn resume-btn">Resume</a>
+
+						</div>
+					</div>
+				</article>
+				<img src="./assets/desk1.png" alt="my coding desk" class="fade-in code" />
+			</div>
+		</section>
+
+		<!-- about section -->
+		<section class="about-me" id="about">
+			<div class="container" data-aos="fade-up">
+				<img src="./assets/hero.jpg" alt="Gagan Giri" />
+				<article>
+
+					<h2 class="title">About Me</h2>
+					<div class="about">
+						<p align="justify">
+							As a computer science graduate student at The University of Illinois at Chicago and a
+							seasoned software engineer, I bring a unique combination of academic knowledge and practical
+							experience to the table. I have worked at Agriplex, where I was responsible for building and
+							maintaining an application that catered to 1 million monthly users. I utilized my skills in
+							machine learning, front-end design, and database optimization to create a user-friendly and
+							efficient application. Deployment of the web application on AWS LightSail and implementation
+							of various front-end design elements using JavaScript improved the overall learnability,
+							safety, and efficiency of the application. I built an automated user acquisition strategies
+							resulted in a 42% increase in traffic. As a software development engineer intern at
+							Agriplex, I optimized the database, resulting in improved response time and maintained data
+							integrity. My passion for building performant applications and my creative approach to
+							problem-solving make me a valuable asset in any software development team.
+						</p>
+						<p align="justify">
+							I am currently pursuing my Master of Science in computer science at the University of
+							Illinois at Chicago, having obtained my Bachelors degree in Computer Science and Engineering
+							from Bangalore Institute of Engineering. During my coursework, I have been exposed to a wide
+							range of subjects, including user interface design and programming, computer algorithms,
+							software engineering, databases, and data and text mining. My coursework has allowed me to
+							apply my knowledge through practical projects, including the development of a web search
+							engine on UIC domain, sentiment analysis of tweet data, and the improvement of the Tesla UI
+							for increased learnability, safety, and efficiency. Through these experiences, I have
+							developed valuable skills and a deep understanding of various aspects of computer science
+							and engineering.
+						</p>
+						<p align="justify">
+							I have a passion for both physical and creative pursuits. My favorite hobby is playing
+							basketball, where I enjoy the challenge of pushing myself physically and the camaraderie of
+							playing with a team. I also have a love for music and singing, which allows me to express
+							myself creatively and relax after a long day. To round out my interests, I have a passion
+							for cooking and experimenting with new flavors and ingredients to create delicious meals.
+							These diverse hobbies allow me to stay active, creative, and satisfied in both my personal
+							and professional life.
+						</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- my skills -->
+		<section class="my-skills" id="skills" data-aos="fade-up">
+			<div class="container">
+				<article>
+					<p class="subtitle">Skills</p>
+
+					</p>
+				</article>
+				<ul>
+					<li>Python</li>
+					<li>Java</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>Django</li>
+					<li>React Js</li>
+					<li>MySQL</li>
+					<li>MongoDB</li>
+					<li>Amazon Web Services</li>
+					<li>NLP</li>
+					<li>Bootstrap</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- projects section -->
+		<section class="showcase-project" data-aos="fade-up" id="projects">
+			<h3>Projects</h3>
+			<ul class="projects">
+				<li>
+					<!--<a href="https://github.com/gagangiri05/Search_Engine_on-UIC-Domain.git" target="_blank"
+						rel="noreferrer">
+						<img
+								src="./assets/"
+								alt="page screenshot" />-->
+						<div>
+							<h4>Full Stack To-Do Application </h4>
+							<p align="justify">
+								The application is designed to allow users to create and manage to-do lists.
+								The user interface was developed using ReactJS and Tailwind CSS, providing a clean and user-friendly interface. The CRUD operations were implemented using a REST API, allowing users to create, read, update, and delete their to-do items.
+                                User authentication and authorization were implemented using JSON Web Tokens, providing secure access to the application. MongoDB was utilized as the data storage mechanism, while Mongoose ODM was used to perform database operations.
+
+
+							</p>
+							<ul>
+								<li>ReactJS</li>
+								<li>Node.js</li>
+								<li>Express.js</li>
+								<li>MongoDB</li>
+								<li>Tailwind CSS</li>
+								<li>Mongoose ODM</li>
+
+							</ul>
+						</div>
+					<!--</a>-->
+				</li>
+				<li>
+					<!--<a href="https://github.com/gagangiri05/Search_Engine_on-UIC-Domain.git" target="_blank"
+						rel="noreferrer">
+						<img
+								src="./assets/"
+								alt="page screenshot" />-->
+						<div>
+							<h4>E-Commerce Website with Visitor Tracking System</h4>
+							<p align="justify">
+								The user interface was designed using HTML, CSS, Bootstrap, and JavaScript, which allows customers to search for products, view detailed descriptions, and place orders. The backend was created using Django and MySQL to store user and product details. The visitor tracking system helps track customer behavior and their preferences, which can be used for further improvements in the website. The project aims to provide a seamless online shopping experience to the customers.
+							</p>
+							<ul>
+								<li>Python</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+								<li>Django</li>
+								<li>MySQL</li>
+
+							</ul>
+						</div>
+					<!--</a>-->
+				</li>
+				<li>
+					<a href="https://github.com/gagangiri05/TeslaDashboardUI" target="_blank" rel="noreferrer">
+						<div>
+							<h4>Car Dashboard User Interface</h4>
+							<p align="justify">
+								After conducting user interviews, prototyping, and user testing, developed a car
+								dashboard interface that is designed with the user's experience in mind, focusing on the
+								key elements of usability such as learnability, efficiency, and safety.
+							</p>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+							</ul>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/gagangiri05/weather-forecast-dashboard" target="_blank"
+						rel="noreferrer">
+						<div>
+							<h4>Weather Forecast Dashboard</h4>
+							<p align="justify">
+								Built a 7-day weather forecast dashboard that provides weather information based on
+								either the user's preferred location or their device's location. The dashboard utilizes
+								the WeatherDB API to retrieve weather data.
+							</p>
+
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+
+							</ul>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/gagangiri05/Plant_disease_detection_CNN" target="_blank"
+						rel="noreferrer">
+						<!--<img
+								src="./assets/"
+								alt="page screenshot" />-->
+						<div>
+							<h4>Plant Disease Detection using Convolutional Neural Network</h4>
+							<p align="justify">
+								Plant disease detection using Convolutional Neural Network (CNN) is a method of
+								automating the process of identifying and diagnosing diseases in plants.
+
+								Preprocessed the data which included resizing, normalizing, and transforming of images
+								to train the model
+								Built and trained CNN model and validated the model using cross-validation, data
+								splitting, and confusion matrix analysis to ensure the model's high accuracy and
+								robustness.
+								Developed an algorithm that employs backtracking to find the most ideal model for
+								prediction to increase accuracy.
+							</p>
+							<ul>
+								<li>Python</li>
+								<li>TensorFlow
+								</li>
+
+							</ul>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/gagangiri05/Search_Engine_on-UIC-Domain.git" target="_blank"
+						rel="noreferrer">
+						<!--<img
+								src="./assets/"
+								alt="page screenshot" />-->
+						<div>
+							<h4>Web Search Engine on UIC domain</h4>
+							<p align="justify">
+								The main goal of a web search engine project is to provide relevant information to users
+								based on their search queries.
+								Created a robust Web Crawler that leverages the Breadth-First Search approach for web
+								exploration and indexed thousands of webpages in the UIC domain to create a vast
+								database of information.
+								Implemented a Vector Space Model using TF-IDF as weighting scheme and cosine similarity
+								which matches user queries with relevant indexed web pages to return top ten webpages
+								for the given user query with 98% precision.
+							</p>
+							<ul>
+								<li>Python</li>
+								<li>Natural Language Tool kit</li>
+
+							</ul>
+						</div>
+					</a>
+				</li>
+				<li>
+					<!--<a href="https://github.com/gagangiri05/Search_Engine_on-UIC-Domain.git" target="_blank"
+						rel="noreferrer">
+						<img
+								src="./assets/"
+								alt="page screenshot" />-->
+						<div>
+							<h4>Real Time Chat App using Web Sockets</h4>
+							<p align="justify"s>
+								The project's primary objective is to facilitate real-time communication between users on the app. It involves establishing real-time communication between clients and server using Web Sockets. This was achieved by building the frontend using ReactJS and the backend using Node.js and Express.js.	
+							</p>
+							<ul>
+								<li>Node.js</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>ReactJS</li>
+								<li>Express.js</li>
+								
+							
+
+							</ul>
+						</div>
+					<!--</a>-->
+				</li>
+				
+			</ul>
+		</section>
+
+		</div>
+		</section>
+
+		<!-- contact section -->
+		<section class="contact" data-aos="fade-up">
+			<div class="container">
+				<p class="subtitle">Contact</p>
+				<h2 class="title">Let's Work Together</h2>
+				<div>
+					<a href="mailto:gagangiri007@gmail.com" class="mail-link hover-effect">Let's Connect →</a>
+
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer" id="contact">
+		<div class="container">
+			<p>&copy; <span id="date"></span><b>Gagan Giri</b></p>
+			<div>
+				<ul>
+					<li>
+						<a href="https://twitter.com/GaganGiri007" rel="noreferrer" target="_blank"
+							aria-label="link to twitter profile">
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+								style="fill: currentColor">
+								<path
+									d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/gagangiri/" rel="noreferrer" target="_blank"
+							aria-label="link to linkedin profile"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+								height="18" viewBox="0 0 24 24" style="fill: currentColor">
+								<circle cx="4.983" cy="5.009" r="2.188"></circle>
+								<path
+									d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/gagangiri05" rel="noreferrer" target="_blank"
+							aria-label="link to github account"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+								height="18" viewBox="0 0 24 24" style="fill: currentColor">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+								</path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+				<a href="#top" class="top">
+					<p class="scroll">Home</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+						style="fill: currentColor">
+						<title>scroll to top</title>
+						<path d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
+						<path d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
