@@ -197,8 +197,7 @@ h3 {
 .subtitle1 {
 	
 	letter-spacing: 2px;
-	text-align: center;
-	font-size: clamp(2.1rem, 1vw, 3rem);
+	font-size: clamp(3rem, 1vw, 3rem);
 	color: var(--accent-clr);
 }
 .title {
