@@ -188,13 +188,19 @@ h3 {
 }
 
 .subtitle {
-	text-transform: uppercase;
+	
 	letter-spacing: 2px;
 	text-align: center;
 	font-size: clamp(3.2rem, 3vw, 6rem);
 	color: var(--accent-clr);
 }
-
+.subtitle1 {
+	
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: clamp(2.1rem, 1vw, 3rem);
+	color: var(--accent-clr);
+}
 .title {
 	font-size: clamp(3.2rem, 3vw, 6rem);
 }
