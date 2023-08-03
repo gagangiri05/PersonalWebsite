@@ -190,7 +190,8 @@ h3 {
 .subtitle {
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: clamp(2.2rem, 1vw, 2.35rem);
+	text-align: center;
+	font-size: clamp(3.2rem, 3vw, 6rem);
 	color: var(--accent-clr);
 }
 
